@@ -1,0 +1,56 @@
+        /*Header*/
+        header {
+            display: flex;
+            align-items: center;
+            /*justify-content: space-between;*/
+            height: 50px;
+        }
+
+        .header-logo {
+            height: 40px;
+            width: 202px;
+        }
+
+        .header-shopping-cart {
+            height: 35px;
+            width: 35px;
+        }
+
+        header a {
+            text-decoration: none;
+        }
+
+        header nav {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 10px;
+        }
+
+        header nav a {
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+
+        header nav a:hover {
+            background-color: #2C3ABA;
+            color: #fff;
+        }
+        
+        .header-direito {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 17px;
+        }
+        header .header-direito a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80px;
+            height: 40px;
+            background-color: #2C3ABA;
+            color: #fff;
+            border-radius: 50px;
+        }

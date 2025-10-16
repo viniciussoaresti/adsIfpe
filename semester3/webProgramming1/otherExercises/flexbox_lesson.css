@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #f73395, #5e3139);
+  height: 100vh;
+  width: 100vw;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.child {
+  background-image: linear-gradient(to top, #ff69b4, #ffc0cb);
+  height: 100px;
+  width: 100px;
+  border: 1px solid purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

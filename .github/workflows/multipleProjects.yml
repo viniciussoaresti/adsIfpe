@@ -1,0 +1,39 @@
+# Workflow with different builds for each directory/project
+
+name: multipleProjects
+
+# Cases in which the workflow is executed
+on:
+  push:
+    branches: ["master"]
+  pull_request:
+    branches: ["master"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # A job called "build"
+  build:
+    # Image it runs on
+    runs-on: ubuntu-latest
+
+    # Tasks to do on the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+
+      - name: Build Semester 3 - Greetings Card
+        run: |
+          mkdir -p ./_site/semester3/webProgramming1/greetingsCard/
+          cp -r ./semester3/webProgramming1/greetingsCard/ ./_site/semester3/webProgramming1/greetingsCard/
+
+      - name: Build Semester 3 - Meu Ingresso
+        run: |
+          mkdir -p ./_site/semester3/webProgramming1/meuIngresso/
+          cp -r ./semester3/webProgramming1/meuIngresso/ ./_site/semester3/webProgramming1/meuIngresso/
+
+      # Deploy
+      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/deploy-pages@v4

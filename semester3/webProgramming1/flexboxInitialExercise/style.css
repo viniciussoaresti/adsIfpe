@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  height: 100px;
+  text-align: center;
+}
+
+article {
+  margin: 10px;
+  padding: 10px;
+}
+
+#article1 {
+  background-color: lightblue;
+}
+
+#article2 {
+  background-color: lightgreen;
+}
+
+#article3 {
+  background-color: lightcoral;
+}
+
+#article4 {
+  background-color: lightgoldenrodyellow;
+}
+
+#article5 {
+  background-color: lightpink;
+}
+
+#article6 {
+  background-color: lightgray;
+}
+
+section {
+  display: flex;
+}
