@@ -37,21 +37,21 @@ jobs:
     # Tasks to do on the job
     steps:
       # Build
-      -name: Checkout
-      uses: actions/checkout@v4
-      -name: Setup Pages
-      uses: actions/configure-pages@v5
-      -name: Build Semester 3 - Greetings Card
-      run: |
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Build Semester 3 - Greetings Card
+        run: |
           mkdir -p ./_site/semester3/webProgramming1/greetingsCard/
           cp -r ./semester3/webProgramming1/greetingsCard/ ./_site/semester3/webProgramming1/greetingsCard/
-      -name: Build Semester 3 - Meu Ingresso
-      run: |
+      - name: Build Semester 3 - Meu Ingresso
+        run: |
           mkdir -p ./_site/semester3/webProgramming1/meuIngresso/
           cp -r ./semester3/webProgramming1/meuIngresso/ ./_site/semester3/webProgramming1/meuIngresso/
       # Deploy
-      -name: Upload Artifact
-      uses: actions/upload-pages-artifact@v3
-      -name: Deploy to GitHub Pages
-      id: deployment
-      -uses: actions/deploy-pages@v4
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v3
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
