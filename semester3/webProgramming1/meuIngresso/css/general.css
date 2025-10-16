@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+h1 {
+    font-family: Roboto, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+li {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 885px;
+    margin: 0 auto;
+}

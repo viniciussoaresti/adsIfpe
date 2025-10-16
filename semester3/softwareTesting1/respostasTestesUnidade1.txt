@@ -1,0 +1,27 @@
+Minhas respostas:
+1) D
+2) VFVF
+3) Considerando que as entradas são unicamente de valores condizentes, como por exemplo relacionados num ENUM,
+portanto desconsiderando casos como textos incorretos, números e etc., poderiam ser passados os limites inferiores,
+como um PP, XPP (ou algo assim), e limites superiores, como GG, XGG, 2XG, analisando os casos de exceção.
+E, claro, os próprios valores limite que ainda estão no funcionamento normal, P e G.
+4)
+1.0 - (a):
+	1.1 -  (b, c);
+	1.2 - (c, b).
+2.0 - (b):
+	2.1 - (a, c);
+	2.2 - (c, a).
+3.0 - (c):
+	3.1 - (a, b);
+	3.2 - (b, a).
+
+testes:
+a maior que todos (3,2,1), a igual a b (3,3,2), a igual a c (3,2,3)
+caso 2 acima, (3,2,2)
+
+Gabarito:
+D
+VFVF
+{(p),(m),(g),(o,q),(l,n),(f,h)}
+{a>b>c = (3,2,1),(3,1,2); b>c>a = (1,3,2),(2,3,1); c>a>b = (2,1,3),(1,2,3)}.

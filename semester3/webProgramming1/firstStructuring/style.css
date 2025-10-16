@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+header {
+  background-color: #f8f8f8;
+}
+
+main {
+  background-color: #2980b9;
+}
+
+aside {
+  background-color: #222222;
+}
+
+#about {
+  background-color: #fafafa;
+}
+
+#learn {
+  background-color: #f2f2f2;
+}
+
+#faq {
+  background-color: #fafafa;
+}
+
+#changelog {
+  background-color: #f2f2f2;
+}
+
+footer {
+  background-color: #222222;
+}
