@@ -1,0 +1,3 @@
+[submodule "creativeIntegrationSuite"]
+	path = creativeIntegrationSuite
+	url = https://github.com/viniciussoaresti/creativeIntegrationSuite.git
