@@ -41,6 +41,10 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Build CreatIS
+        run: |
+          mkdir -p ./_site/creativeIntegrationSuite/
+          cp -r ./creativeIntegrationSuite/src/* ./_site/creativeIntegrationSuite/
       - name: Build Semester 3 - Greetings Card
         run: |
           mkdir -p ./_site/semester3/webProgramming1/greetingsCard/
