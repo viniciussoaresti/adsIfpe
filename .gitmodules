@@ -1,3 +1,6 @@
 [submodule "finalProject/creativeIntegrationSuite"]
 	path = finalProject/creativeIntegrationSuite
 	url = https://github.com/vinisoaresti/creativeIntegrationSuite
+[submodule "semester3/scientificMethodology/modeloTCC"]
+	path = semester3/scientificMethodology/modeloTCC
+	url = https://github.com/DCMemoir/TCCGraduacao-IFPE-GUS
