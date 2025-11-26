@@ -43,8 +43,8 @@ jobs:
           cp -r ./semester3/webProgramming1/meuIngresso/* ./_site/semester3/webProgramming1/meuIngresso/
       - name: Build Semester 3 - Exercise 1
         run: |
-          mkdir -p ./_site/semester3/webProgramming1/exercise1/
-          cp -r ./semester3/webProgramming1/exercise1/* ./_site/semester3/webProgramming1/exercise1/
+          mkdir -p ./_site/semester3/webProgramming1/jsExercise1/
+          cp -r ./semester3/webProgramming1/jsExercise1/* ./_site/semester3/webProgramming1/jsExercise1/
       # Deploy
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
