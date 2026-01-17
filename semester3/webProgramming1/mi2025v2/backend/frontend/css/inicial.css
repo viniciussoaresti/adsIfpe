@@ -1,0 +1,94 @@
+h1 {
+    text-align: left;
+}
+
+section {
+    height: 600px;
+}
+
+.secao1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #2c3aba;
+    color: white;
+}
+
+.secao1 h1 {
+    font-size: 3.4rem;
+    margin-bottom: 20px;
+}
+
+.secao1 h2 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.secao1 p {
+    font-size: 1.4rem;
+    color: black;
+    width: 500px;
+}
+
+.secao1 img {
+    width: 300px;
+}
+
+/* depoimentos */
+.depoimentos {
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.depoimentos .deps {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.depoente {
+    width: 400px;
+}
+
+.depoimentos h1,q,p,blockquote {
+    color: black;
+}
+
+h1 {
+    font-size: 3.4rem;
+}
+
+.depoimentos p {
+    margin-top: 16px;
+    text-align: center;
+}
+
+.depoente blockquote {
+    width: 400px;
+}
+
+.parcerias {
+    height: 600px;
+
+    background-color: #2c3aba;
+    color: white;
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    text-align: center;
+
+}
+
+.parcerias ol {
+    list-style-type: none;
+}

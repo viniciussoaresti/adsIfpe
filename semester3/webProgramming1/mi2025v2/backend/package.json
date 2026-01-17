@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "test backend for mi2025",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Eduardo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
